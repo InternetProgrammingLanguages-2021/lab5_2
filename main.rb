@@ -1,3 +1,5 @@
 # frozen_string_literal: true
 
-puts ('b  x  c v'.split ' ').length
+require './lib'
+puts 'Please provide a string of words to be converted'
+puts convert(gets)
