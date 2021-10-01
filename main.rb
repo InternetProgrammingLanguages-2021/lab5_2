@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
-require './lib'
-puts 'Please provide a string of words to be converted'
-puts convert(gets)
+def convert(string)
+  string.is_a?(String) || (return ArgumentError)
+  string.gsub(/\w+/).with_index { |value, index| index.even? ? value : value.reverse }
+end

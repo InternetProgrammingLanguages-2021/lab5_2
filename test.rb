@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'minitest/autorun'
-require './lib'
+require './main'
 # test to check if correcter function
 class CorrecterTest < Minitest::Test
   def setup
