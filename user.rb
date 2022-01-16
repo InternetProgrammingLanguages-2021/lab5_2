@@ -2,4 +2,4 @@
 
 require './main'
 puts 'Please provide a string of words to be converted'
-puts convert(gets)
+puts CorrectionUtil.convert(gets)
